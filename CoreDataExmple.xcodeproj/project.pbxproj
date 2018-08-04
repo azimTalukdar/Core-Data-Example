@@ -15,6 +15,7 @@
 		184E8979210CE6C5000C0EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184E8977210CE6C5000C0EF7 /* LaunchScreen.storyboard */; };
 		184E8984210CE6C5000C0EF7 /* CoreDataExmpleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E8983210CE6C5000C0EF7 /* CoreDataExmpleTests.swift */; };
 		184E898F210CE6C6000C0EF7 /* CoreDataExmpleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E898E210CE6C6000C0EF7 /* CoreDataExmpleUITests.swift */; };
+		185219392110E0E70003E02D /* DataListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185219382110E0E70003E02D /* DataListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		184E898A210CE6C5000C0EF7 /* CoreDataExmpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataExmpleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184E898E210CE6C6000C0EF7 /* CoreDataExmpleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataExmpleUITests.swift; sourceTree = "<group>"; };
 		184E8990210CE6C6000C0EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185219382110E0E70003E02D /* DataListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				184E8977210CE6C5000C0EF7 /* LaunchScreen.storyboard */,
 				184E897A210CE6C5000C0EF7 /* Info.plist */,
 				184E8972210CE6AC000C0EF7 /* CoreDataExmple.xcdatamodeld */,
+				185219382110E0E70003E02D /* DataListViewController.swift */,
 			);
 			path = CoreDataExmple;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				185219392110E0E70003E02D /* DataListViewController.swift in Sources */,
 				184E8974210CE6AC000C0EF7 /* CoreDataExmple.xcdatamodeld in Sources */,
 				184E896E210CE6AC000C0EF7 /* ViewController.swift in Sources */,
 				184E896C210CE6AC000C0EF7 /* AppDelegate.swift in Sources */,
